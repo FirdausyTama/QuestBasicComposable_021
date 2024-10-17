@@ -58,7 +58,11 @@ fun BasicCompose(modifier: Modifier = Modifier) {
         Image(painter = painterResource(id = R.drawable.madrid), contentDescription = null,
             modifier = Modifier.size(width = 200.dp, height = 200.dp)
         )
-        Text(text = "Nama")
+        Text(text = "Nama",
+            style = TextStyle(
+
+            )
+        )
     }
 }
 @Composable
