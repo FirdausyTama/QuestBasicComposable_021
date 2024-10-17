@@ -70,6 +70,9 @@ fun BasicCompose(modifier: Modifier = Modifier) {
                 color = Color.Green,
             )
         )
+        Text(text = "20220140021",
+
+            )
     }
 }
 @Composable
