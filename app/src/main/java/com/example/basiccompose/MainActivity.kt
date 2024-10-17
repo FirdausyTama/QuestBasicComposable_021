@@ -64,6 +64,9 @@ fun BasicCompose(modifier: Modifier = Modifier) {
                 fontStyle = FontStyle.Italic,
             )
         )
+        Text(text = "20220140021",
+
+            )
     }
 }
 @Composable
