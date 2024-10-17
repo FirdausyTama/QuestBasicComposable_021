@@ -65,10 +65,11 @@ fun BasicCompose(modifier: Modifier = Modifier) {
             )
         )
         Text(text = "Atama Cahya El Firdausy",
-                style = TextStyle(
-                    fontSize = 20.sp
-                )
+            style = TextStyle(
+                fontSize = 20.sp,
+                color = Color.Green,
             )
+        )
     }
 }
 @Composable
