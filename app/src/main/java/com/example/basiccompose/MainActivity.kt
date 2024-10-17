@@ -65,7 +65,9 @@ fun BasicCompose(modifier: Modifier = Modifier) {
             )
         )
         Text(text = "Atama Cahya El Firdausy",
-
+                style = TextStyle(
+                    fontSize = 20.sp
+                )
             )
     }
 }
