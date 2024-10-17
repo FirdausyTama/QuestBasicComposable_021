@@ -83,6 +83,8 @@ fun BasicCompose(modifier: Modifier = Modifier) {
         Image(
             painter = painterResource(id = R.drawable.tama),
             contentDescription = null,
+            modifier = Modifier
+                .size(250.dp)
         )
     }
 }
