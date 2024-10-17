@@ -12,6 +12,7 @@ import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.foundation.layout.padding
 import androidx.compose.foundation.layout.size
 import androidx.compose.foundation.shape.CircleShape
+import androidx.compose.foundation.shape.RoundedCornerShape
 import androidx.compose.material3.Scaffold
 import androidx.compose.material3.Shapes
 import androidx.compose.material3.Text
@@ -85,6 +86,7 @@ fun BasicCompose(modifier: Modifier = Modifier) {
             contentDescription = null,
             modifier = Modifier
                 .size(250.dp)
+                .clip(RoundedCornerShape(50.dp))
         )
     }
 }
