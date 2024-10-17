@@ -43,7 +43,7 @@ class MainActivity : ComponentActivity() {
 @Preview(showBackground = true)
 @Composable
 fun BasicCompose(modifier: Modifier = Modifier) {
-    Column (verticalArrangement = Arrangement.Center, modifier = Modifier.fillMaxSize(),
+    Column (verticalArrangement = Arrangement.Top, modifier = Modifier.fillMaxSize(),
         horizontalAlignment = Alignment.CenterHorizontally){
         Text(text = "Indonesia", modifier = modifier,
             fontSize = 30.sp, color = Color.Red, fontWeight = FontWeight.Bold,
