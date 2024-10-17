@@ -73,9 +73,9 @@ fun BasicCompose(modifier: Modifier = Modifier) {
         Text(text = "20220140021",
             style = TextStyle(
                 fontSize = 45.sp,
-
+                fontWeight = FontWeight.Bold,
             )
-            )
+        )
     }
 }
 @Composable
